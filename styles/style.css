@@ -8,6 +8,7 @@ White: #FFF
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
 	font-family: 'Roboto', sans-serif;
 }
@@ -35,3 +36,67 @@ body {
 	padding: 15px;
 }
 
+.top-section {
+	width: 100%;
+	height: 600px;
+	background-position: center;
+	background-image: url("../images/landing.jpg");
+	object-fit: cover;
+}
+
+.content {
+	text-align: center;
+	color: white;
+}
+
+.content h1 {
+	top: 30%;
+	font-size: 50px;
+	font-weight:
+}
+
+.top-section p {
+	position: absolute;
+	top: 40%;
+	text-align: center;
+	left: 0;
+}
+
+
+/* .cards {
+	display: flex;
+
+
+}*/
+.cards {
+	width: 1200;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.features {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cards article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.cards h2 {
+	text-align: center;
+	font-weight: bolder;
+	/* display: inline-block; */
+	border-bottom: rgb(26, 178, 110) solid;
+
+}
+
+.cards-logo {
+	width: 90px;
+}
