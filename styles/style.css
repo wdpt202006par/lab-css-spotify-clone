@@ -6,9 +6,10 @@ Green: #00B172
 White: #FFF
 
 */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body, html {
+body,
+html {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -32,7 +33,7 @@ nav ul {
     align-items: center;
     justify-content: right;
     border: 1px solid blue;
-    
+
 }
 
 nav ul li {
@@ -61,5 +62,38 @@ nav ul li {
     font-size: 25px;
 }
 
+h2 {
+    text-align: center;
+}
 
+.blocks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
+.music {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+}
+
+.music img {
+    width: 100px;
+}
+
+#about h2 {
+    text-decoration: #00B172 solid underline;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.music h3 {
+    font-weight: 700;
+    color: #00B172;
+}
