@@ -8,19 +8,31 @@ White: #FFF
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 body {
 	font-family: 'Roboto', sans-serif;
 }
 
 .header {
-	padding: 15px;
+	padding: 5px;
 }
 
 .header-logo {
 	width: 200px;
-	padding: 15px;
+	padding: 5px;
 	transition: width 3s infinite;
+	animation: bounce 1.3s infinite;
+}
+
+@keyframes bounce {
+  20% {
+    animation-timing-function:ease-out;
+    transform:translateY(50px);
+  }
+  
+  50% {
+    animation-timing-function:ease-in;
+    transform:translateY(-20px);
+  }
 }
 
 .header-logo:hover {
@@ -50,17 +62,26 @@ body {
 }
 
 .content h1 {
-	padding-top: 160px;
-	font-size: 60px;
-	font-weight: bolder;
+	font-size: 50px;
+	padding-top: 150px;
 }
 
 .cards {
-	width: 1200;
-	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 100%;
+	height: auto;
+	margin: 50px auto;
+}
+
+.cards-logo {
+	width: 100px;
+}
+
+.cards h2 {
+	font-size: 40px;
+	border-bottom: 5px solid #00B172;
 }
 
 .features {
@@ -70,46 +91,75 @@ body {
 }
 
 .cards article {
+	width: 30%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 }
 
-.cards h2 {
-	text-align: center;
-	font-weight: bolder;
-	/* display: inline-block; */
-	border-bottom: rgb(26, 178, 110) solid;
-
+.cards article>h3 {
+  color: #00B172;
 }
-
-.cards-logo {
-	width: 90px;
-}
-
-/* FOOTER */
 
 .footer {
 	background-color: #00B172;
-	color: #fff;
-	height: 800px;
-	width: 95%;
-	margin: 0 auto 50px;
+  color: #fff;
+  width: 95%;
+  height: 800px;
+  margin: 0 auto 50px;
 }
 
-.footer-items {
-	height: 600px;
+.footer-item {
 	display: inline-block;
 	vertical-align: middle;
+	height: 600px;
 }
 
-.item {
-
+.items {
+	width: 40%;
+	margin-left: 40px;
 }
 
-.footer-items>h3 {
-	font-weight: bold;
-	font-size: large;
-	
+.items>h3 {
+  font-size: 25px;
+  color: #fff;
 }
+
+.items>p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer h2 {
+	font-size: 20px;
+  width: 30%;
+  padding-bottom: 10px;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  margin-left: 40px;
+  padding-top: 40px;
+}
+
+.spotify-icon {
+	width: 10%;
+	-webkit-animation: spin 4s infinite linear;
+}
+
+@-webkit-keyframes spin {
+	0%  {-webkit-transform: rotate(0deg);}
+	100% {-webkit-transform: rotate(360deg);}	
+}
+
+.spotify-icon img {
+	width: 40%;
+	margin-top: 150px;
+}
+
+.app-phone {
+  width: 35%;
+  background-image: url("../images/spotify-app.jpg");
+  background-size: cover;
+  float: right;
+  margin-right: 40px;
+}
+
