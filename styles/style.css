@@ -16,7 +16,7 @@ html {
 
 .logo img {
     width: 200px;
-    border: 1px solid red;
+    
 }
 
 .navbar {
@@ -24,7 +24,7 @@ html {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid pink;
+   
 }
 
 nav ul {
@@ -32,7 +32,7 @@ nav ul {
     flex-direction: row;
     align-items: center;
     justify-content: right;
-    border: 1px solid blue;
+    
 
 }
 
@@ -89,11 +89,44 @@ h2 {
 
 #about h2 {
     text-decoration: #00B172 solid underline;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .music h3 {
     font-weight: 700;
     color: #00B172;
+}
+
+#kanye {
+    background-color: #00B172 ;
+    height: 700px;
+
+}
+
+.presentation-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.logo-kanye img {
+    position: absolute;
+    width: 150px;
+}
+.screen {
+    margin-top: 100px;
+}
+
+.screen img {
+    width: 300px;   
+}
+
+.texte h2 {
+    text-decoration: #ffffff solid underline;
+}
+.texte h2, h3, p {
+    color: #ffffff;
 }
