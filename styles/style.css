@@ -6,3 +6,60 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400');
+
+body, html {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo img {
+    width: 200px;
+    border: 1px solid red;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid pink;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    border: 1px solid blue;
+    
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 20px 0 20px;
+}
+
+.header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 900px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.header p {
+    font-size: 25px;
+}
+
+
+
