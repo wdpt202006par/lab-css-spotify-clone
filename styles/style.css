@@ -6,3 +6,37 @@ Green: #00B172
 White: #FFF
 
 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body{
+    width: 100%;
+}
+
+.presentation nav {
+    background-color: beige;
+    display:flex;
+}
+
+.presentation nav img {
+    width: 200px;
+    height: auto;
+}
+
+.presentation nav ul{
+    display:flex;
+    align-items: center;
+    margin-left: 1000px; 
+  
+}
+ 
+.presentation nav ul li{
+    list-style-type:none; 
+    margin-left: 10px;
+    font-family:"Open Sans";
+
+}
+
+.presentation nav ul li a{
+    text-decoration: none;
+    color:#1A1A1A;
+}
