@@ -6,7 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 
 body,
 html {
@@ -17,7 +17,7 @@ html {
 .logo img {
     width: 170px;
     margin-left: 25px;
-    
+
 }
 
 .navbar {
@@ -27,8 +27,8 @@ html {
     justify-content: space-between;
     position: fixed;
     background-color: #ffffff;
-    width: 1520px;
-   
+    width: 100%;
+
 }
 
 nav ul {
@@ -46,6 +46,13 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: black;
+}
+
+nav a:hover {
+    color: #00B172;
+    border-bottom: 1px solid #00B172;
+    padding-bottom: 5px;
+    transition-timing-function: ease-in-out;
 }
 
 .header {
@@ -67,6 +74,7 @@ nav ul li a {
 
 .header p {
     font-size: 25px;
+    font-weight: 200;
 }
 
 h2 {
@@ -99,32 +107,36 @@ h2 {
     width: 100px;
 }
 
-#about {
+#about .title {
     margin-top: 40px;
+    text-align: center;
 }
 
 #about h2 {
-
     border-bottom: 3px solid #00B172;
     padding-bottom: 3px;
     border-width: 3px;
     display: inline;
-    margin-left: 650px;
+    /*margin-left: 650px;*/
 }
 
 .music h3 {
     font-weight: 700;
     color: #00B172;
+    font-size: 19px;
 }
 
 .music p {
     color: black;
     line-height: 25px;
     margin-top: 0px;
+    font-weight: 300;
+    font-size: 17px;
+
 }
 
 #kanye {
-    background-color: #00B172 ;
+    background-color: #00B172;
     height: 700px;
 
 }
@@ -138,16 +150,21 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-    
+
 }
 
 .logo-kanye img {
     position: absolute;
-    width: 100px; /* postulat de départ */
-    right: 50%; /* à 50%/50% du parent référent */
-    left: 50%; /* à 50%/50% du parent référent */
-    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    width: 100px;
+    /* postulat de départ */
+    right: 50%;
+    /* à 50%/50% du parent référent */
+    left: 50%;
+    /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */
 }
+
 .screen {
     margin-top: 100px;
 }
@@ -161,12 +178,23 @@ h2 {
 .texte h2 {
     border-bottom: 3px solid #ffffff;
     padding-bottom: 3px;
+    margin-bottom: 40px;
 }
-.texte h2, h3, p {
+
+.texte h2,
+h3,
+p {
     color: #ffffff;
-    line-height: 33px;
 }
 
 .texte h3 {
     font-weight: 700;
+    font-size: 19px;
+}
+
+.texte p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    padding-bottom: 20px;
 }
