@@ -68,9 +68,10 @@ h1 {
     color: #fff;
 }
 
-h2 {
+#title-h2 {
     text-align: center;
     text-decoration: underline #29e6a7;
+    text-underline-position: under;
 }
 
 .icons {
@@ -89,7 +90,7 @@ h2 {
     align-items: center;
 }
 
-.proporty h3 {
+.title-proporty {
     color: #29e6a7;
 }
 .proporty p {
@@ -100,3 +101,36 @@ h2 {
     color: rgba(0, 0, 0, 0.5);
 }
 
+footer{
+    background-color:#26a067 ;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title-h2-footer {
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 50px;
+}
+
+.h3-footer {
+    color: white;
+}
+
+#div-footer p {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    width: 250px;
+}
+
+#img-app {
+    height: 350px;    
+}
+
+#icon-white {
+    height: 80px;
+    width: 80px;
+}
