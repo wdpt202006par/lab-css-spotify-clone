@@ -15,7 +15,8 @@ html {
 }
 
 .logo img {
-    width: 200px;
+    width: 170px;
+    margin-left: 25px;
     
 }
 
@@ -24,6 +25,9 @@ html {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    background-color: #ffffff;
+    width: 1520px;
    
 }
 
@@ -71,6 +75,9 @@ h2 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .music {
@@ -88,14 +95,23 @@ h2 {
 }
 
 #about h2 {
-    text-decoration: #00B172 solid underline;
-    margin-top: 50px;
-    margin-bottom: 50px;
+
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 3px;
+    border-width: 3px;
+    display: inline;
+    margin-left: 650px;
 }
 
 .music h3 {
     font-weight: 700;
     color: #00B172;
+}
+
+.music p {
+    color: black;
+    line-height: 25px;
+    margin-top: 0px;
 }
 
 #kanye {
@@ -109,24 +125,35 @@ h2 {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
     
 }
 
 .logo-kanye img {
     position: absolute;
-    width: 150px;
+    width: 100px; /* postulat de départ */
+    right: 50%; /* à 50%/50% du parent référent */
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 }
 .screen {
     margin-top: 100px;
 }
 
 .screen img {
-    width: 300px;   
+    width: 300px;
+    height: 480px;
+    margin-bottom: 50px;
 }
 
 .texte h2 {
-    text-decoration: #ffffff solid underline;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 3px;
 }
 .texte h2, h3, p {
     color: #ffffff;
+    line-height: 33px;
 }
