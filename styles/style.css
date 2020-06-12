@@ -8,10 +8,87 @@ White: #FFF
 */
 
 .nav {
-  display: flexbox;
+  display: fixed;
+  align-items: start;
+  justify-content: space-between;
 }
 
 .imgLogo {
-  width: 10px;
-  height: 10px;
+  display: flex;
+  width: 130px;
+  height: 40px;
+  flex-direction: row-reverse;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav ul {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+}
+
+.nav li {
+  list-style-type: none;
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+}
+.position {
+  margin: 0;
+}
+.landingImg {
+  display: block;
+  width: 97%;
+  height: 30%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.service-box img {
+  display: flex;
+  width: 70px;
+  height: 50px;
+}
+
+.dark-background {
+  background-color: #1ab16a;
+  padding: 10px 10px 10px 10px;
+}
+
+.texBlock {
+  display: inline-block;
+  flex-direction: column;
+  color: white;
+}
+
+.spotifyIconWhite {
+  background-position: center;
+  width: 50px;
+  height: 50px;
+}
+
+.KanyeWest {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  padding: 100px 100px 60px 100px;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 4em;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+hr {
+  color: white;
+  width: 35%;
+  margin-left: 1px;
 }
