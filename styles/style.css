@@ -6,3 +6,195 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+body,
+html {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo img {
+    width: 170px;
+    margin-left: 25px;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 20px 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #00B172;
+    border-bottom: 1px solid #00B172;
+    padding-bottom: 5px;
+    transition-timing-function: ease-in-out;
+}
+
+.header {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 900px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.header p {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+h2 {
+    text-align: center;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.music {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    text-align: center;
+}
+
+.music img {
+    width: 100px;
+}
+
+#about .title {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#about h2 {
+    border-bottom: 3px solid #00B172;
+    padding-bottom: 3px;
+    border-width: 3px;
+    display: inline;
+    /*margin-left: 650px;*/
+}
+
+.music h3 {
+    font-weight: 700;
+    color: #00B172;
+    font-size: 19px;
+}
+
+.music p {
+    color: black;
+    line-height: 25px;
+    margin-top: 0px;
+    font-weight: 300;
+    font-size: 17px;
+
+}
+
+#kanye {
+    background-color: #00B172;
+    height: 700px;
+
+}
+
+.presentation-boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+
+}
+
+.logo-kanye img {
+    position: absolute;
+    width: 100px;
+    /* postulat de départ */
+    right: 50%;
+    /* à 50%/50% du parent référent */
+    left: 50%;
+    /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+    /* décalage de 50% de sa propre taille */
+}
+
+.screen {
+    margin-top: 100px;
+}
+
+.screen img {
+    width: 300px;
+    height: 480px;
+    margin-bottom: 50px;
+}
+
+.texte h2 {
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 3px;
+    margin-bottom: 40px;
+}
+
+.texte h2,
+h3,
+p {
+    color: #ffffff;
+}
+
+.texte h3 {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.texte p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    padding-bottom: 20px;
+}
