@@ -17,6 +17,7 @@ body {
 .container {
     width: 1000px;
     margin: auto;
+    background-color: white;
 }
 
 header {
@@ -65,3 +66,57 @@ h1 {
 p {
     margin: 5px;
 }
+
+
+h2 {
+    font-size: 30px;
+    border-bottom: 3px solid #00B172;
+    display: flex;
+    justify-content: center;
+    margin: 50px 350px;   
+}
+
+.section-center > div > ul {
+    list-style: none;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+}
+.section-center > div > ul > li {
+    margin: auto 20px;
+}
+.section-center > div > ul > li > img {
+    width: 80px;
+    height: 60px;
+}
+.section-center div ul li p {
+    width: 200px;
+
+}
+
+/*green section*/
+.the-last{
+    background-color: #00B172 ;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.the-last div {
+    width: 300px;
+    margin: auto 20px;
+    color: white;
+}
+.the-last > img {
+    width: 80px;
+    height: 85px;
+    margin: auto 60px;
+}
+.the-last div img {
+    width: 300px;
+    height: 500px;
+}
+
+
