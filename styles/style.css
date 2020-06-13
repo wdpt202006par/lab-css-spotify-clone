@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0;
+    }
+
+#landing {
+    background-image: url("../images/landing.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin:5px 0px;
+}
+
+nav img {
+    width: 180px;
+    margin: 10px 30px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    font-size:23px;
+    margin-right:10px;
+    font-weight: 300;
+}
+
+li {
+    padding: 0px 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15%;
+    margin: 0px;
+    font-weight: 600;
+    word-spacing:3px;
+}
+
+#landing p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    word-spacing:3px;
+    font-weight:300; 
+}
+
+#whats-on {
+    text-align:center;
+}
+
+h2 {
+    font-size: 38px; 
+    border-bottom:4px solid #53B36C;
+    display:inline-block;
+    margin: 40px 0px;
+    font-weight:600;
+    word-spacing:3px;
+    padding-bottom: 2px;
+}
+
+#whats-on img {
+    width: 130px;
+}
+
+#hd {
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+h3 {
+    font-size:30px;
+    font-weight: 600;
+    margin-top:15px;
+    color: #53B36C;
+    font-weight: 900;
+}
+#whats-on div {
+    margin: 50px 40px 40px 40px;
+    display:flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+#whats-on article {
+    width:270px;
+}
+
+#whats-on p {
+    font-size:25px;
+    font-weight:200;
+    margin:0px 5px;
+}
+
+#green-block {
+    margin:45px;
+    padding: 5% 5%;
+    background-color:#53B36C;
+    color: white;
+    position: relative;
+}
+
+#functions {
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-around;
+}
+
+#green-block h2 {
+    border-bottom:4px solid white;
+    margin: 0px 0px;
+    padding-bottom: 3px;
+}
+
+#green-block h4 {
+    font-size: 25px; 
+    word-spacing:3px;
+    margin:40px 0px 20px 0px;
+    font-weight:700;
+}
+
+#green-block p {
+    font-size: 20px;
+    font-weight:300;
+    width:55%;
+}
+
+#functions img {
+    width:280px;
+}
+
+#green-block > img {
+    width:110px;
+    position: absolute;
+    top:45%;
+    left:45%;
+}
