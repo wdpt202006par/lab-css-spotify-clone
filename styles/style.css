@@ -8,8 +8,9 @@ White: #FFF
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -24,15 +25,15 @@ body {
 }
 
 @keyframes bounce {
-  20% {
-    animation-timing-function:ease-out;
-    transform:translateY(50px);
-  }
-  
-  50% {
-    animation-timing-function:ease-in;
-    transform:translateY(-20px);
-  }
+	20% {
+		animation-timing-function: ease-out;
+		transform: translateY(50px);
+	}
+
+	50% {
+		animation-timing-function: ease-in;
+		transform: translateY(-20px);
+	}
 }
 
 .header-logo:hover {
@@ -52,31 +53,46 @@ body {
 	background-image: url("../images/landing.jpg");
 	background-position: center;
 	background-size: cover;
-	height: 500px;
+	height: 700px;
 	width: 100%;
+
 }
 
 .content {
 	text-align: center;
 	color: #fff;
+
+}
+
+.content p {
+	font-size: 1.4em;
+	font-weight: normal;
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	/*How to go next line without playing pixel or HTML?*/
 }
 
 .content h1 {
-	font-size: 50px;
+	font-size: 80px;
 	padding-top: 150px;
+	font-weight: normal;
+	margin-top: auto;
+	margin-bottom: auto;
+	/* height: inherit; */
 }
 
 .cards {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 100%;
-	height: auto;
 	margin: 50px auto;
 }
 
 .cards-logo {
-	width: 100px;
+	width: 160px;
+	height: 136px;
 }
 
 .cards h2 {
@@ -86,8 +102,6 @@ body {
 
 .features {
 	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .cards article {
@@ -95,18 +109,28 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	margin: 0 50px;
 }
 
 .cards article>h3 {
-  color: #00B172;
+	color: #00B172;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.cards article>p {
+	width: auto;
+	height: 38px
+		/*to align all the h3 together*/
 }
 
 .footer {
 	background-color: #00B172;
-  color: #fff;
-  width: 95%;
-  height: 800px;
-  margin: 0 auto 50px;
+	color: #fff;
+	width: 95%;
+	height: 800px;
+	margin: 0 auto 50px;
 }
 
 .footer-item {
@@ -121,23 +145,23 @@ body {
 }
 
 .items>h3 {
-  font-size: 25px;
-  color: #fff;
+	font-size: 25px;
+	color: #fff;
 }
 
 .items>p {
-  font-size: 20px;
-  color: #fff;
+	font-size: 20px;
+	color: #fff;
 }
 
 .footer h2 {
 	font-size: 20px;
-  width: 30%;
-  padding-bottom: 10px;
-  color: #fff;
-  border-bottom: 3px solid #fff;
-  margin-left: 40px;
-  padding-top: 40px;
+	width: 30%;
+	padding-bottom: 10px;
+	color: #fff;
+	border-bottom: 3px solid #fff;
+	margin-left: 40px;
+	padding-top: 40px;
 }
 
 .spotify-icon {
@@ -146,8 +170,13 @@ body {
 }
 
 @-webkit-keyframes spin {
-	0%  {-webkit-transform: rotate(0deg);}
-	100% {-webkit-transform: rotate(360deg);}	
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
 }
 
 .spotify-icon img {
@@ -156,10 +185,9 @@ body {
 }
 
 .app-phone {
-  width: 35%;
-  background-image: url("../images/spotify-app.jpg");
-  background-size: cover;
-  float: right;
-  margin-right: 40px;
+	width: 35%;
+	background-image: url("../images/spotify-app.jpg");
+	background-size: cover;
+	float: right;
+	margin-right: 40px;
 }
-
