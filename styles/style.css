@@ -6,3 +6,145 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body{
+    font-family: "Open Sans";
+}
+
+.presentation nav {
+
+    width: 100%;
+    display:flex;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.presentation nav img {
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+    
+}
+
+.presentation nav ul{
+    display:flex;
+    align-items: center;
+    margin-left: 700px; 
+  
+}
+ 
+.presentation nav ul li{
+    list-style-type:none; 
+    margin-left: 10px;
+  
+}
+
+.presentation nav ul li a{
+    text-decoration: none;
+    color:#1A1A1A;
+}
+
+.landing{
+    background:url("../images/landing.jpg") center no-repeat; 
+    background-size:cover;
+}
+
+h1{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+h3{
+ font-weight: normal;
+ color: white;
+ text-align: center;
+ font-size: 30px;
+ width: 60%;
+ margin-left: auto;
+ margin-right: auto;
+ padding-bottom: 300px;
+ ;
+}
+
+#detail h2{
+ text-align: center;
+ margin-bottom: 5px;
+}
+
+#detail hr{
+    width: 16%;
+    border-color:#00B172;
+    margin-top: auto;
+    margin-bottom: 80px;
+}
+
+.detail-article img{
+    width: 100px;
+}
+
+
+.detail-article{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 80px;
+
+}
+
+.detail-article article{
+    width: 200px;
+}
+
+h4{
+    font-size: 20px;
+    color: #00B172;
+    margin-block-start: 1em;
+}
+
+
+
+#yeezy{
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.title{
+    color:#FFF;
+    margin-left: 50px;
+    width:600px;
+    font-size: 30px;
+   
+}
+
+.detail-green p{
+    width: 400px;
+    margin-left: 50px;
+    color: #FFF;
+    font-size: 25px;
+}
+
+
+.spotilogo{
+    width: 50%;
+    
+}
+
+.spotiapp img{
+    margin-left: 0;
+    width: 85%;
+}
+
+
